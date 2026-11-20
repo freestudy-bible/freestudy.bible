@@ -25,7 +25,7 @@ $databases['default']['default']['init_commands'] = [
 // Generate with: php -r 'echo bin2hex(random_bytes(32));'
 $settings['hash_salt'] = 'REPLACE_WITH_A_RANDOM_VALUE';
 
-$settings['trusted_host_patterns'] = ['^cms\.bible-and-beyond\.com$'];
+$settings['trusted_host_patterns'] = ['^cms\.bible-and-beyond\.com$', '^cms\.freestudy\.bible$'];
 
 // Outside the web root, so these are never served directly.
 $settings['file_private_path'] = '/home/paul/drupal-private';
